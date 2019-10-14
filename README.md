@@ -8,3 +8,7 @@
 ## 实现方式
 
 这是一个使用JavaScript编写的小插件，如果每个页面都手动导入这个js文件，太过麻烦，于是我选择使用`Tampermonkey`执行，而什么值得买本身有使用jQuery，因此不需要额外使用jQuery。
+
+## 使用方法
+
+在`tampermonkey`-`管理面板`页面，点击`已安装脚本`左侧的`＋`，编辑项目`\tampermonkey\smzdm.js`，全选代码，覆盖页面编辑器的所有代码，按`Ctrl + S`保存后，即可打开[什么值得买](https://www.smzdm.com/)搜索页面中使用（注：首页不显示，只有`https://search.smzdm.com/xxxxxxxx`页面生效）
